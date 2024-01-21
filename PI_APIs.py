@@ -13,5 +13,5 @@ def descargar_datos_csv(url):
         # Escribe la respuesta en el archivo
         archivo.write(response.text)
 
-# Ejemplo de uso
+# Uso del codigo 
 descargar_datos_csv("https://huggingface.co/datasets/mstz/heart_failure/raw/main/heart_failure_clinical_records_dataset.csv")
